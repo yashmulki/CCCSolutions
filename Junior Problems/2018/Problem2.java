@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class Problem2 {
-    public static void mbain(String[] args) {
+    public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         int numberOfSlots = myScanner.nextInt();
         int bothOccupied = 0;
@@ -11,8 +12,6 @@ public class Problem2 {
                 bothOccupied++;
             }
         }
-
         System.out.println(bothOccupied);
-
     }
 }
